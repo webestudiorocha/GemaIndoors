@@ -77,7 +77,7 @@ $template->themeInit();
                                     <div class="row equalize sm-equalize-auto">
                                         <div class="col-md-6 half-background style-1"  style="padding-right: 0px !important;
                                              height: 390px;"   >
-                                                <img src="<?= URL?>/assets/img/arms-care-check-905874.jpg">
+                                                <img src="<?= URL?>/assets/img/GeMa Logotipo fondo Naranja1.jpg" style="width: 100%">
                                         </div><!-- /.col-md-6 -->
                                         <div class="col-md-6 bg-light-grey">
                                             <div class="themesflat-content-box clearfix" data-margin="0 25% 0 4.5%" data-mobilemargin="0 0 0 4.5%">
