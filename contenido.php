@@ -75,7 +75,8 @@ $template->themeInit();
                             <div class="row-about">
                                 <div class="container-fluid">
                                     <div class="row equalize sm-equalize-auto">
-                                        <div class="col-md-6 half-background style-1">
+                                        <div class="col-md-6 half-background style-1"  style="padding-right: 0px !important;
+                                             height: 390px;"   >
                                                 <img src="<?= URL?>/assets/img/arms-care-check-905874.jpg">
                                         </div><!-- /.col-md-6 -->
                                         <div class="col-md-6 bg-light-grey">

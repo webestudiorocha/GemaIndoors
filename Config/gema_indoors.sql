@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 13-03-2019 a las 16:49:54
+-- Tiempo de generación: 15-03-2019 a las 16:19:24
 -- Versión del servidor: 10.1.34-MariaDB
 -- Versión de PHP: 7.2.7
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `gema`
+-- Base de datos: `gema_indoors`
 --
 
 -- --------------------------------------------------------
@@ -96,10 +96,9 @@ CREATE TABLE `contenidos` (
 --
 
 INSERT INTO `contenidos` (`id`, `contenido`, `cod`) VALUES
-(2, '<div class=\"btgrid\">\r\n<div class=\"row row-1\">\r\n<div class=\"col col-md-4\">\r\n<div class=\"content\">\r\n<p><a href=\"http://192.168.0.22/lasilleria/assets/archivos/images/arms-care-check-905874.jpg\"><img alt=\"\" src=\"http://192.168.0.22/lasilleria/assets/archivos/images/arms-care-check-905874.jpg\" style=\"width:100%\" /></a></p>\r\n</div>\r\n</div>\r\n\r\n<div class=\"col col-md-4\">\r\n<div class=\"content\">\r\n<p><a data-lightbox=\"9p5gis1nqv\" data-lightbox-saved=\"\" href=\"http://192.168.0.22/lasilleria/assets/archivos/images/arms-care-check-905874.jpg\"><img alt=\"\" src=\"http://192.168.0.22/lasilleria/assets/archivos/images/arms-care-check-905874.jpg\" style=\"width:100%\" /></a></p>\r\n</div>\r\n</div>\r\n\r\n<div class=\"col col-md-4\">\r\n<div class=\"content\">\r\n<p><a data-lightbox=\"dc9orod7rn\" data-lightbox-saved=\"\" href=\"http://192.168.0.22/lasilleria/assets/archivos/images/arms-care-check-905874.jpg\"><img alt=\"\" src=\"http://192.168.0.22/lasilleria/assets/archivos/images/arms-care-check-905874.jpg\" style=\"width:100%\" /></a></p>\r\n</div>\r\n</div>\r\n</div>\r\n\r\n<div class=\"row row-2\">\r\n<div class=\"col col-md-4\">\r\n<div class=\"content\">\r\n<p style=\"text-align:center\"><span style=\"font-family:Georgia,serif\"><strong>Excelente Calidad</strong></span></p>\r\n\r\n<hr />\r\n<p style=\"text-align:center\">&nbsp;</p>\r\n</div>\r\n</div>\r\n\r\n<div class=\"col col-md-4\">\r\n<div class=\"content\">\r\n<p style=\"text-align:center\"><span style=\"font-family:Georgia,serif\"><strong>Excelente Calidad</strong></span></p>\r\n\r\n<hr /></div>\r\n</div>\r\n\r\n<div class=\"col col-md-4\">\r\n<div class=\"content\">\r\n<p style=\"text-align:center\"><span style=\"font-family:Georgia,serif\"><strong>Excelente Calidad</strong></span></p>\r\n\r\n<hr /></div>\r\n</div>\r\n</div>\r\n</div>\r\n\r\n<p>&nbsp;</p>\r\n', 'Empresa'),
-(3, '<p>gjhgjgjhg</p>\r\n', 'Footer'),
-(4, '<p>&quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&quot;</p>\r\n', 'DESCRIPCION'),
-(5, '', 'CONTACTO');
+(3, '', 'Footer'),
+(5, '', 'CONTACTO'),
+(6, '<p>Indoors es una empresa Joven din&aacute;mica, con una amplia experiencia de m&aacute;s de 10 a&ntilde;os en el rubro de aberturas, dedic&aacute;ndose a fabricar y comercializar puertas de interior, corredizas, frentes<br />\r\nde placard, con un alto est&aacute;ndar de calidad.<br />\r\nNuestra estrategia de productos incluye la m&aacute;s amplia variedad de modelos, desde los m&aacute;s simples, hasta los coloniales, cl&aacute;sicos, minimalistas, vanguardistas y modernos, permitiendo que se<br />\r\nadapten de la mejor forma a su proyecto combinando precio y calidad.<br />\r\nDesde Gema proporcionamos el mejor asesoramiento t&eacute;cnico para que el proceso de selecci&oacute;n, compra y colocaci&oacute;n, sea el m&aacute;s acorde a tu proyecto.</p>\r\n\r\n<p><strong>Dise&ntilde;o, estilo, calidad, variedad y entrega son nuestros valores.</strong></p>\r\n', 'DESCRIPCION');
 
 -- --------------------------------------------------------
 
@@ -135,19 +134,17 @@ CREATE TABLE `imagenes` (
 --
 
 INSERT INTO `imagenes` (`id`, `ruta`, `cod`) VALUES
-(70, 'assets/archivos/recortadas/a_4e521429ca.jpg', 'f51cf4218a'),
-(71, 'assets/archivos/recortadas/a_54aed85342.jpg', '4c5b330616'),
-(72, 'assets/archivos/recortadas/a_7e5115f8af.jpg', 'a1f392fcd9'),
 (73, 'assets/archivos/recortadas/a_546bdf68de.jpg', 'dc7d7ea3fa'),
 (75, 'assets/archivos/recortadas/a_d13ae3ac19.jpg', '71031f3292'),
 (76, 'assets/archivos/recortadas/a_a5ff1e8ff8.jpg', '018995175f'),
 (77, 'assets/archivos/recortadas/a_cf2564a72f.jpg', '107098c0ae'),
-(78, 'assets/archivos/recortadas/a_1c13339f67.jpg', '9e41853706'),
 (79, 'assets/archivos/recortadas/a_527cd4dfa1.jpg', '2759897731'),
 (80, 'assets/archivos/recortadas/a_305d12fd10.jpg', 'f038a29a86'),
 (81, 'assets/archivos/recortadas/e3ccc29dc2.png', '7f57ae91ff'),
 (82, 'assets/archivos/recortadas/5c51d2e703.jpg', '54cdd55c1a'),
-(83, 'assets/archivos/recortadas/8139f634fe.jpg', '42fb682408');
+(83, 'assets/archivos/recortadas/8139f634fe.jpg', '42fb682408'),
+(84, 'assets/archivos/recortadas/a_d1b18f6bfa.png', 'a1f392fcd9'),
+(86, 'assets/archivos/recortadas/a_2f7228268b.jpg', '34ca402048');
 
 -- --------------------------------------------------------
 
@@ -318,7 +315,6 @@ CREATE TABLE `servicios` (
 --
 
 INSERT INTO `servicios` (`id`, `cod`, `titulo`, `desarrollo`, `categoria`, `keywords`, `description`, `fecha`) VALUES
-(13, '9e41853706', 'Interiorismo', '<p>Si deseas darle una nueva imagen a tus espacios, sean dentro de tu hogar o en tu oficina, entonces contactanos, encontrar&aacute;s los mejores profesionales que puedan ayudarte a crear excelentes dise&ntilde;os.</p>\r\n\r\n<p>En muchas ocasiones perdemos mucho tiempo buscando el personal o el profesional ideal para este tipo de servicios, la pr&oacute;xima vez contactanos!</p>\r\n', '0b5ab47da0', '', '', '2019-03-01'),
 (14, '2759897731', 'Dirección de obra', '<p>Te ofrecemos nuestros servicios&nbsp;para&nbsp;llevar&nbsp;a cabo alguna reforma dentro de tu oficina o de tu hogar,&nbsp; uno de los requisitos legales que debes cumplir adem&aacute;s del plano de la obra, es que tengas un equipo que la dirija, un equipo de profesionales. En nuestro estudio&nbsp;podr&aacute;s encontrar este servicio el cual te garantiza la culminaci&oacute;n y la ejecuci&oacute;n de una obra perfecta y bien elaborada.&nbsp;</p>\r\n', '0b5ab47da0', '', '                            ', '0000-00-00'),
 (15, 'f038a29a86', 'Planos y presupuestos', '<p>Armamos planos y presupuestos a tu medida de la forma m&aacute;s profesional posible! No te olvides de consultarnos!&nbsp;&nbsp;</p>\r\n', '0b5ab47da0', '', '', '2019-03-01');
 
@@ -342,9 +338,8 @@ CREATE TABLE `sliders` (
 --
 
 INSERT INTO `sliders` (`id`, `cod`, `titulo`, `subtitulo`, `categoria`, `fecha`) VALUES
-(9, 'a1f392fcd9', 'ghjjhg', '', '', '2019-03-13'),
-(10, '4c5b330616', 'sdadsfsd', '', '', '2019-03-13'),
-(11, 'f51cf4218a', 'eter', '', '', '2019-03-13');
+(9, 'a1f392fcd9', 'ghjjhg', '', '', '2019-03-15'),
+(12, '34ca402048', 'dgsfd', '', '', '2019-03-15');
 
 -- --------------------------------------------------------
 
@@ -534,7 +529,7 @@ ALTER TABLE `categorias`
 -- AUTO_INCREMENT de la tabla `contenidos`
 --
 ALTER TABLE `contenidos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de la tabla `galerias`
@@ -546,7 +541,7 @@ ALTER TABLE `galerias`
 -- AUTO_INCREMENT de la tabla `imagenes`
 --
 ALTER TABLE `imagenes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=84;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=87;
 
 --
 -- AUTO_INCREMENT de la tabla `landing`
@@ -600,7 +595,7 @@ ALTER TABLE `servicios`
 -- AUTO_INCREMENT de la tabla `sliders`
 --
 ALTER TABLE `sliders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT de la tabla `subcategorias`
