@@ -60,11 +60,12 @@ $novedadesData = $novedades->listWithOps("", "", "3");
                 <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="35" data-smobile="35"></div>
 
                 <div class="widget widget_tags">
-                    <h2 class="widget-title margin-bottom-30"><span>TAGS</span></h2>
-                    <div class="tags-list">
-                        <a href="#"></a>
-                    </div>
+                    <h2 class="widget-title margin-bottom-30"><span>Danos Me gusta</span></h2>
+
                 </div>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgemaindoors%2F&tabs&width=340&height=197&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                        width="100%" height="197" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowTransparency="true" allow="encrypted-media"></iframe>
             </div><!-- /.col -->
 
 
@@ -79,16 +80,7 @@ $novedadesData = $novedades->listWithOps("", "", "3");
                 </div>
             </div><!-- /.bottom-bar-content -->
 
-            <div class="bottom-bar-menu">
-                <ul class="bottom-nav">
-                    <li class="fa fa-facebook">
-                        <a href="https://www.facebook.com/gemaindoors/" target="_blank">Facebook</a>
-                    </li>
-                <li class="fa fa-instagram">
-                    <a href="#">Instagram</a>
-                </li>
-                </ul>
-            </div><!-- /.bottom-bar-menu -->
+
         </div><!-- /.bottom-bar-inner-wrap -->
     </div><!-- /#bottom-bar-inner -->
 </div><!-- /#bottom -->

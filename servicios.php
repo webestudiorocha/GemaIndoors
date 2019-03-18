@@ -4,8 +4,8 @@ Config\Autoload::runSitio();
 $template = new Clases\TemplateSite();
 $template->set("title", TITULO . ' | Servicios');
 $template->set("imagen", LOGO);
-$template->set("keywords", "Servicios de " . TITULO);
-$template->set("description", "Servicios de " . TITULO);
+$template->set("keywords", "Servicios de gema distribuidor indoors, puertas, puertas a tu medida, ventas de puerta" . TITULO);
+$template->set("description", "Servicios de gema distribuidor indoors, puertas, puertas a tu medida, ventas de puerta " . TITULO);
 $template->set("body", "header-fixed page no-sidebar header-style-2 topbar-style-1 menu-has-search");
 $template->themeInit();
 //Clases

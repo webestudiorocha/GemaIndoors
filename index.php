@@ -183,7 +183,7 @@ $categoria_data = $categoria->list($filter);
                                                             <div class="inner">
                                                                 <div class="thumb data-effect-item">
                                                                     <a href="<?= URL . '/servicio/' . $funciones->normalizar_link($port['titulo']) . '/' . $funciones->normalizar_link($port['cod']) ?>">
-                                                                        <img src="<?= URL . '/' . $img['ruta'] ?>" alt="Image">
+                                                                        <img src="<?= URL . '/' . $img['ruta'] ?> " alt="Image" style="width: 100%;height: 250px;">
                                                                     <div class="overlay-effect bg-color-accent"></div>
                                                                 </div>
                                                                 <div class="text-wrap">
