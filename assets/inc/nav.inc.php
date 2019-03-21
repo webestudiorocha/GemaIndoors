@@ -1,8 +1,5 @@
 <?php
-$id = isset($_GET["id"]) ? $_GET["id"] : '';
-$servicio = new Clases\Servicios();
-$servicio->set("cod", $id);
-$servicio_data = $servicio->lista("", "", "");
+
 $funciones_nav = new Clases\PublicFunction();
 ?>
 

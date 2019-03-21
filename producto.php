@@ -29,7 +29,7 @@ $template->themeInit();
 
         <!-- Featured Title -->
         <div id="featured-title" class="featured-title clearfix text-center">
-            <h1 style="padding-top: 20px !important;"> <?php echo $productoData['titulo']; ?></h1>
+            <h1 style="padding-top: 60px !important;"> <?php echo $productoData['titulo']; ?></h1>
         </div>
         <!-- End Featured Title -->
 
@@ -54,12 +54,10 @@ $template->themeInit();
                                                             </div>
                                                         </div>
                                                         <ul class="list-info has-icon icon-left">
-                                                            <li><span class="text">Client <span class="icon"><i class="fa fa-user"></i></span></span><span class="right">KenVin, LuHam</span></li>
                                                             <li><span class="text">Precio <span class="icon"><i class="fa fa-usd"></i></span></span><span class="right"><?= ucfirst($productoData["precio"]) ?></span></li>
                                                             <li><span class="text">Precio descuento <span class="icon"><i class="fa fa-tag"></i></span></span><span class="right"><a href="#"></a><a href="#"><?= ucfirst($productoData['precio_descuento']); ?></a></span></li>
                                                             <li><span class="text">Medidas <span class="icon"><i class="fa fa-search"></i></span></span><span class="right"><?= ucfirst($productoData['var2']); ?></span></li>
-                                                            <li><span class="text">Year completed <span class="icon"><i class="fa fa-calendar"></i></span></span><span class="right">2017</span></li>
-                                                            <li><span class="text">Prime Consultant: <span class="icon"><i class="fa fa-folder-open"></i></span></span><span class="right">Dialog Ontario</span></li>
+                                                            <li><span class="text">Material <span class="icon"><i class="fa fa-gavel "></i></span></span><span class="right"><?= ucfirst($productoData['var1']); ?></span></li>
                                                         </ul>
                                                     </div><!-- /.content-info -->
 
