@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0d1484b3-5e76-44ee-8b11-e9d1c7208bc7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/sliders/agregar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/sliders/agregar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/sliders/modificar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/sliders/modificar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/inc/nav.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/inc/nav.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacto.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contenido.php" beforeDir="false" afterPath="$PROJECT_DIR$/contenido.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producto.php" beforeDir="false" afterPath="$PROJECT_DIR$/producto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos.php" beforeDir="false" afterPath="$PROJECT_DIR$/productos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicios.php" beforeDir="false" afterPath="$PROJECT_DIR$/servicios.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social.php" beforeDir="false" afterPath="$PROJECT_DIR$/social.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/productos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-121">
-              <caret line="91" column="72" selection-start-line="91" selection-start-column="72" selection-end-line="91" selection-end-column="72" />
+            <state relative-caret-position="423">
+              <caret line="123" column="56" lean-forward="true" selection-start-line="123" selection-start-column="56" selection-end-line="123" selection-end-column="56" />
               <folding>
                 <element signature="e#3996#4086#0#HTML" expanded="true" />
               </folding>
@@ -321,16 +308,15 @@
       <workItem from="1553034221734" duration="152000" />
       <workItem from="1553084487564" duration="7181000" />
       <workItem from="1553175978438" duration="742000" />
-      <workItem from="1553179107358" duration="2714000" />
+      <workItem from="1553179107358" duration="3281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152244000" />
+    <option name="totallyTimeSpent" value="152811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18305598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -709,8 +695,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/productos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
-          <caret line="91" column="72" selection-start-line="91" selection-start-column="72" selection-end-line="91" selection-end-column="72" />
+        <state relative-caret-position="423">
+          <caret line="123" column="56" lean-forward="true" selection-start-line="123" selection-start-column="56" selection-end-line="123" selection-end-column="56" />
           <folding>
             <element signature="e#3996#4086#0#HTML" expanded="true" />
           </folding>
